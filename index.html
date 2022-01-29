@@ -8,8 +8,8 @@
     <body>
         <aside>
             <section id="title">
-                <p>Mickael Rougé</p>
-                <img src="images/Image1.jpg" alt="photo">
+                <a href="#hautDePage"><p>Mickael Rougé</p></a>
+                <a href="#hautDePage"><img src="images/Image1.jpg" alt="photo"></a>
             </section>
             <section id="list">
                 <a href="#competences"><p class="link">Compétences</p></a>
@@ -18,9 +18,9 @@
                 <a href="#contact"><p class="link">Me contacter</p></a>
             </section>
             <section id="logos">
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github-square"></i>
-                <i class="fab fa-codepen"></i>
+                <a href="https://my.indeed.com/p/mickaelr-k4pk98p" target="blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Micka0675" target="blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://codepen.io/Mickael0675" target="blank"><i class="fab fa-codepen"></i></a>
             </section>
         </aside>
         <header>
@@ -31,9 +31,8 @@
                     <span class="slider round"></span>
                 </label>
             </div>
-            <h1>Developpeur Web & Web Mobile</h1>
+            <h1 id="hautDePage">Developpeur Web & Web Mobile</h1>
         </header>
-
         <article id="competences">
             <h2>Compétences</h2>
             <section id="logages">
@@ -86,11 +85,12 @@
         <article id="contact">
             <h2>Me contacter</h2>
             <section id="coord">
-                <a href="mailto:mickael.rouge@outlook.fr"><p><i class="fas fa-envelope"></i>mickael.rouge@outlook.fr</p></a>
-                <p><i class="fab fa-linkedin"></i>micka.indeed.com</p>
-                <a href="https://github.com/Micka0675" target="blank"><p><i class="fab fa-github-square"></i>https://github.com/Micka0675</p></a>
-                <p><i class="fab fa-codepen"></i>codepen/micka06</p>
+                <a href="mailto:mickael.rouge@outlook.fr" target="blank"><p><i class="fas fa-envelope"></i>mickael.rouge@outlook.fr</p></a>
+                <a href="https://my.indeed.com/p/mickaelr-k4pk98p" target="blank"><p><i class="fab fa-linkedin"></i>Indeed : Mickael R.</p></a>
+                <a href="https://github.com/Micka0675" target="blank"><p><i class="fab fa-github-square"></i>GitHub : Mickael R.</p></a>
+                <a href="https://codepen.io/Mickael0675" target="blank"><p><i class="fab fa-codepen"></i>CodePen : Mickael0675</p></a>
             </section>
+            <article id="blocForm">
                 <form>
                     <div id="blocRenseign">
                         <ul id="index">
@@ -99,14 +99,15 @@
                             <li>Mail</li>
                         </ul>
                         <ul id="identite">
-                            <li> <input type="text"></li>
-                            <li> <input type="text"></li>
-                            <li> <input type="text"></li>
+                            <li> <input class="info" id="nom" type="text"></li>
+                            <li> <input class="info" type="text"></li>
+                            <li> <input class="info" type="text"></li>
                         </ul>
                     </div>
-                    <textarea>
+                    <textarea id="commentaire">
                     </textarea>
                     <input id="com" type="button" value="Envoyer">
+                    <div id="comBox"></div>
                 </form>
             </article>
             <footer>

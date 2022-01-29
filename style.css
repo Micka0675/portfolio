@@ -10,6 +10,10 @@ a {
     color: rgb(221, 167, 20);
 }
 
+ul{
+    list-style-type: none;
+}
+
 #logages ul{
     list-style-type: none;
     font-size: 27px;
@@ -427,6 +431,31 @@ color:rgb(221, 167, 20);
     margin-top: 20px;
 }
 
+#blocForm{
+    width: 1680px;
+    height: 1000px;
+}
+
+#comBox{
+    width: 500px;
+    height: 350px;
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#comBox ul{
+    text-align:center;
+    margin-right: 50px;
+    color:rgb(218, 203, 199);
+}
+
+#vae{
+    color: rgb(218, 203, 199);
+    text-align: center;
+}
+
 textarea{
     width: 450px;
     height: 300px;
@@ -437,7 +466,7 @@ textarea{
 
 form{
     width: 500px;
-    height: 600px;
+    height: 950px;
     text-align: center;
     margin: auto;
     font-weight: bold;
@@ -475,7 +504,7 @@ form{
 }
 
 #com{
-background-color: rgb(27, 27, 27);
+background-color: rgba(0, 0, 0, 0.431);
 color: rgb(221, 167, 20);
 border: white;
 }
@@ -483,7 +512,7 @@ border: white;
 footer{
     height: 37.5px;
     float:right;
-    margin-top: 800px;
+    
 }
 
 
@@ -506,3 +535,10 @@ footer{
     background-color: rgba(153, 153, 152, 0.397);
     color: papayawhip;
 }
+
+
+
+
+
+
+
