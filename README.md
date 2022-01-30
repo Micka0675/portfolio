@@ -17,6 +17,7 @@ ADD FORM SCRIPT: it allow to spawn the text entered by user at the bottom of for
 waiting for send the data in a server... comming soon!^^
 -----------------------------------------------
 V.3
-Fix <aside> and #wrapper superposition
-Add achievements description in the form of spawn <div>
+FIX <aside> AND #wrapper OVERLAY
+ADD ACHIEVMENTS IN FORM OF SPAWN <div>
+-----------------------------------------------
 
