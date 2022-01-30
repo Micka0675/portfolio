@@ -20,14 +20,13 @@ ul{
     line-height: 60px;
     text-align: left;
 }
+
 body{
     width: 1900px;
     height: 1080px;
     background-color:#0f0f0f;
     color:rgb(221, 167, 20);
 }
-
-
 
 aside{
     font-family: 'lato',sans-serif;
@@ -37,6 +36,7 @@ aside{
     width: 200px;
     height: 1080px;
     position: fixed;
+    float: left;
 }
 
 #title{
@@ -56,6 +56,11 @@ aside{
     height: 40px;
     background-color: #0f0f0f;
     padding-top: 10px;
+    transition:0.3s;
+}
+
+#title p:hover{
+    font-size: 25px;
 }
 
 #title img{
@@ -63,6 +68,12 @@ aside{
     width: 160px;
     height: 200px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+#title img:hover{
+    width: 180px;
+    height: 220px;
 }
 
 #list{
@@ -295,6 +306,22 @@ h2{
     margin-bottom: 70px;
     box-shadow: black 10px 10px 10px 0px;
 }
+/* ////////////////////////////////////////////////////pop up infos////////////////////////// */
+.pop{
+    
+    text-align: center;
+    padding-top:5px;
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 70px;
+    box-shadow: black 10px 10px 10px 0px;
+    border: antiquewhite solid 1px;
+    border-radius: 15px;
+    visibility: hidden;
+    color: blanchedalmond;
+}
+
 
 #blocPendu{
     text-align: center;
@@ -310,6 +337,7 @@ h2{
     background-position: center;
     background-size: cover;
     transition: 0.3s;
+    
 }
 
 #blocPendu:hover{
