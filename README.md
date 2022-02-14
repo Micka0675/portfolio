@@ -20,4 +20,7 @@ V.3
 FIX <aside> AND #wrapper OVERLAY
 ADD ACHIEVMENTS IN FORM OF SPAWN <div>
 -----------------------------------------------
+V.4
+UPDATE abilities section with multiple <select>
+-----------------------------------------------
 
