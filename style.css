@@ -14,6 +14,129 @@ ul{
     list-style-type: none;
 }
 
+select{
+    width: 150px;
+    height: 25px;
+    background-color: #0f0f0f;
+    color: wheat;
+    border-color: wheat;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.illu{
+    width:50%;
+    margin: 50px 0px 50px 0px;
+}
+
+#illuBig{
+    width:25%;
+    margin: 50px 0px 50px 0px;
+}
+
+#txtMaq{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+.txtDesc{
+    font-size: 18px;
+    margin-top: 25px;
+    font-style: italic;
+    text-align: justify center;
+}
+
+#txtGest{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#txtIntS{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#txtIntW{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#txtBack{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#txtBase{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#txtSecu{
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 28px;
+    margin-right:467px;
+    display: none;
+}
+
+#choix2{
+    width: 230px;
+    height: 25px;
+    background-color: #0f0f0f;
+    color: wheat;
+    border-color: wheat;
+    display: none;
+}
+
+#choix3{
+    width: 230px;
+    height: 25px;
+    background-color: #0f0f0f;
+    color: wheat;
+    border-color: wheat;
+    display: none;
+}
+
 #logages ul{
     list-style-type: none;
     font-size: 27px;
@@ -219,7 +342,7 @@ h1{
     margin-right: 10px;
     padding-top: 50px;
     width: 1680px;
-    height: 880px;
+    height: 1030px;
     float: right;
 }
 
@@ -269,7 +392,7 @@ h2{
 
 #cv img{
     width: 17%;
-    border:solid rgb(221, 167, 20) 2px;
+    border:solid wheat 2px;
     border-radius: 10px;
     margin-top: 180px;
     transition: 0.3s;
@@ -281,9 +404,8 @@ h2{
 
 #realisations{
     width: 1680px;
-    height: 1200px;
+    height: 1080px;
     font-family: 'Quicksand',sans-serif;
-
     text-align: center;
     float: right;
 }
@@ -340,10 +462,10 @@ h2{
     
 }
 
-#blocPendu:hover{
+/* #blocPendu:hover{
     width: 310px;
     height: 310px;
-}
+} */
 
 #blocBblio{
     text-align: center;
@@ -361,10 +483,10 @@ h2{
     transition: 0.3s;
 }
 
-#blocBblio:hover{
+/* #blocBblio:hover{
     width: 310px;
     height: 310px;
-}
+} */
 
 #blocCv{
     text-align: center;
@@ -382,10 +504,10 @@ h2{
     transition: 0.3s;
 }
 
-#blocCv:hover{
+/* #blocCv:hover{
     width: 310px;
     height: 310px;
-}
+} */
 
 #blocSp{
     text-align: center;
@@ -403,14 +525,14 @@ h2{
     transition: 0.3s; 
 }
 
-#blocSp:hover{
+/* #blocSp:hover{
     width: 310px;
     height: 310px;  
-}
+} */
 
 #formations{
     width: 1690px;
-    height: 1200px;
+    height:1080px;
     font-family: 'Quicksand',sans-serif;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.431);
@@ -418,7 +540,7 @@ h2{
 }
 
 #formations h2{
-    padding-top: 200px;
+    padding-top: 35px;
     width: 200px;
     height: 100px;
 }
@@ -444,7 +566,7 @@ width: 500px;
 height: 700px;
 margin:auto;
 padding-left:120px;
-color:rgb(221, 167, 20);
+color:wheat;
 }
 
 #coord i{
@@ -489,7 +611,7 @@ textarea{
     height: 300px;
     background-color: rgb(27, 27, 27);
     border: solid white 2px;
-    color: rgb(221, 167, 20);
+    color: wheat;
 }
 
 form{
