@@ -21,6 +21,9 @@ FIX <aside> AND #wrapper OVERLAY
 ADD ACHIEVMENTS IN FORM OF SPAWN <div>
 -----------------------------------------------
 V.4
-UPDATE abilities section with multiple <select>
+UPDATE ABILITIES SECTION WITH MULTIPLE <select>
 -----------------------------------------------
-
+V.5
+LIGHTMODE OPTIMIZATION
+GLOBAL COLORS UPDATE
+-----------------------------------------------
