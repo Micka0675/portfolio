@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+
+
 *{
     margin:0;
 }
 
 a {
     text-decoration: none;
-    color: rgb(221, 167, 20);
+    color: wheat;
 }
 
 ul{
@@ -43,7 +45,7 @@ select{
     color: wheat;
     font-size: 28px;
     margin-right:467px;
-    display: none;
+    display: none;   
 }
 
 .txtDesc{
@@ -148,12 +150,12 @@ body{
     width: 1900px;
     height: 1080px;
     background-color:#0f0f0f;
-    color:rgb(221, 167, 20);
+    color:wheat;
+    transition: 2s;
 }
 
 aside{
     font-family: 'lato',sans-serif;
-    color: antiquewhite;
     background-color: rgba(0, 0, 0, 0.431);
     float: left;
     width: 200px;
@@ -171,7 +173,6 @@ aside{
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    color:rgb(221, 167, 20);
 }
 
 #title p{
@@ -184,6 +185,7 @@ aside{
 
 #title p:hover{
     font-size: 25px;
+    color: rgb(253, 190, 74);
 }
 
 #title img{
@@ -205,7 +207,10 @@ aside{
     margin: auto;
     text-align: center;
     font-size: 20px;
-    color: rgb(221, 167, 20);
+}
+
+#list a{
+    color:wheat;
 }
 
 .link{
@@ -219,6 +224,7 @@ aside{
 
 .link:hover{
     font-size: 25px;
+    color:rgb(253, 190, 74)
 }
 
 header{
@@ -230,14 +236,14 @@ header{
     height: 100px;
     text-align: center;
     font-size: 25px;
-    color: rgb(221, 167, 20);
+    color: wheat;
     padding-top: 50px;
 }
 
-.darkMode{
+/* .darkMode{
     font-family: 'Quicksand',sans-serif;
     background-color: rgba(182, 180, 180, 0.431);
-}
+} */
 
 h1{
     margin-left: 400px;
@@ -283,7 +289,7 @@ h1{
     bottom: 0;
     background-color: #ccc;
     -webkit-transition: .4s;
-    transition: .4s;
+    transition: 1.5s;
   }
   
   .slider:before {
@@ -328,11 +334,12 @@ h1{
 #logos i{
     font-size: 45px;
     margin:10px 10px;
-    color: rgb(221, 167, 20);
+    color: wheat;
     transition: 0.3s;
 }
 #logos i:hover{
     font-size: 50px;
+    color: rgb(253, 190, 74);
 }
 
 #competences{
@@ -351,7 +358,7 @@ h2{
     width: 250px;
     height: 50px;
     margin: auto;
-    color:rgb(221, 167, 20);
+    color:wheat;
 }
 
 #logages{
@@ -400,6 +407,7 @@ h2{
 
 #cv img:hover{
     width:18%;
+    border: solid rgb(253, 190, 74) 2px;
 }
 
 #realisations{
@@ -530,6 +538,7 @@ h2{
     height: 310px;  
 } */
 
+
 #formations{
     width: 1690px;
     height:1080px;
@@ -551,6 +560,12 @@ h2{
     font-family: 'Quicksand',sans-serif;
     text-align: center;
     float: right;
+    
+}
+
+#coord :hover{
+    color:rgb(253, 190, 74);
+    transition:0.2s;
 }
 
 
@@ -640,7 +655,7 @@ form{
     background-color: rgb(27, 27, 27);
     border: solid 2px;
     border-color: white;
-    color:rgb(221, 167, 20);
+    color:wheat;
 }
 
 #index{
@@ -650,14 +665,15 @@ form{
     height: 200px;
     float: left;
     line-height: 35px;
-    color:rgb(221, 167, 20);
+    color:wheat;
 }
 
 #com{
 background-color: rgba(0, 0, 0, 0.431);
-color: rgb(221, 167, 20);
+color: wheat;
 border: white;
 }
+
 
 footer{
     height: 37.5px;
@@ -677,14 +693,86 @@ footer{
 #centre p{
     margin-left: 19px;
     font-family: 'Quicksand',sans-serif;
-    color:rgb(221, 167, 20);
+    color:wheat;
 }
 
-.lightMode{
+.lightMode {
     font-family: 'Quicksand',sans-serif;
     background-color: rgba(153, 153, 152, 0.397);
     color: papayawhip;
+    transition:3s;
+
 }
+
+
+
+.lightMode #list a, .lightMode aside a{
+    color:wheat;
+}
+
+.lightMode h1,.lightMode h2,.lightMode header , .lightMode #txtMaq ,.lightMode #txtIntS , .lightMode #txtIntW , .lightMode #txtGest , .lightMode #txtBack , .lightMode #txtBase , .lightMode #txtSecu{
+    
+    color: black;
+
+}
+
+.lightMode aside,.lightMode #com {
+   color: papayawhip; 
+   background-color: rgb(133, 131, 131);
+   transition:3s; 
+
+}
+
+.lightMode #logages img {
+    filter: drop-shadow(7px 7px 7px black);
+    -webkit-filter: drop-shadow(7px 7px 7px black);
+}
+
+.lightMode #realisations a{
+    background-color:#d8d8d800;
+}
+
+.lightMode .pop{
+    background-color: papayawhip;
+    color: #0f0f0f;
+    font-weight: bolder;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.lightMode #logos i , .lightMode #coord a, .lightMode #index {
+    color: #0f0f0f;
+}
+
+.lightMode #centre p{
+    color: #0f0f0f;
+}
+
+.lightMode #cv img{
+    border: solid black 2px;
+    box-shadow: #0f0f0f 7px 7px 7px 0px;
+}
+
+.lightMode #coord :hover {
+    color: firebrick;
+}
+
+.lightMode  #list p:hover, .lightMode #logos i:hover , .lightMode #title p:hover{
+    color: firebrick;
+}
+
+.lightMode #cv img:hover{
+    border:firebrick solid 2px;
+}
+
+
+
+
+
+ 
+
+
+
 
 
 
